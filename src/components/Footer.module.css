@@ -1,0 +1,38 @@
+.footer { background: var(--navy); }
+.regBanner { background: var(--teal-dark); padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.regInner { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.regIcon { width: 22px; height: 22px; background: rgba(255,255,255,0.2); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: #fff; flex-shrink: 0; }
+.regText { font-size: 13px; color: rgba(255,255,255,0.9); line-height: 1.5; flex: 1; }
+.regText strong { color: #fff; }
+.regBadges { display: flex; gap: 8px; flex-shrink: 0; }
+.regBadge { display: flex; flex-direction: column; align-items: center; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 6px; padding: 6px 16px; font-family: var(--font-head); font-size: 16px; font-weight: 800; color: #fff; letter-spacing: 1px; line-height: 1; transition: var(--transition); }
+.regBadge span { font-size: 10px; font-weight: 500; opacity: 0.75; margin-top: 2px; letter-spacing: 0.5px; }
+.regBadge:hover { background: rgba(255,255,255,0.22); }
+.main { padding: 60px 0 40px; }
+.grid { display: grid; grid-template-columns: 2fr 1fr 1.4fr; gap: 50px; }
+.logo { max-height: 60px; width: auto; margin-bottom: 16px; filter: brightness(1.05); background: #fff; border-radius: 6px; padding: 6px 10px; }
+.logoFallback { margin-bottom: 16px; }
+.logoBig { display: block; font-family: var(--font-head); font-size: 22px; font-weight: 800; color: #fff; letter-spacing: 1px; line-height: 1; }
+.logoSmall { display: block; font-family: var(--font-head); font-size: 14px; font-weight: 600; color: var(--teal); letter-spacing: 3px; margin-top: 2px; }
+.brandDesc { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.7; margin-bottom: 20px; }
+.contactList { display: flex; flex-direction: column; gap: 10px; }
+.contactRow { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.5; transition: color 0.2s; }
+a.contactRow:hover { color: var(--teal); }
+.colTitle { font-family: var(--font-head); font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--teal); margin-bottom: 20px; }
+.linkList { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.footLink { font-family: var(--font-head); font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.6); cursor: pointer; transition: color 0.2s; display: block; padding: 2px 0; }
+.footLink:hover { color: var(--teal); }
+.partnerCards { display: flex; flex-direction: column; gap: 10px; }
+.partnerCard { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 12px 16px; transition: var(--transition); }
+.partnerCard:hover { border-color: var(--teal); background: rgba(29,184,164,0.08); }
+.partnerName { font-family: var(--font-head); font-size: 18px; font-weight: 800; color: #fff; letter-spacing: 1px; line-height: 1; }
+.partnerFull { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 3px; }
+.hoursRow { display: flex; justify-content: space-between; font-size: 13px; color: rgba(255,255,255,0.6); padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.07); }
+.hoursVal { font-family: var(--font-head); font-weight: 700; color: var(--teal); font-size: 14px; }
+.bottom { border-top: 1px solid rgba(255,255,255,0.08); padding: 18px 0; }
+.bottomInner { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: rgba(255,255,255,0.4); gap: 1rem; }
+.socials { display: flex; align-items: center; gap: 12px; }
+.social { width: 32px; height: 32px; border: 1px solid rgba(255,255,255,0.15); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5); transition: var(--transition); }
+.social:hover { color: var(--teal); border-color: var(--teal); }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; gap: 30px; } }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .regInner { flex-direction: column; align-items: flex-start; } .bottomInner { flex-direction: column; text-align: center; } }
