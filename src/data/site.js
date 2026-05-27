@@ -1,4 +1,4 @@
-export const GCAL_URL = 'https://calendar.app.google/QVbKp2B2NJPoM3Ae9';
+export const GCAL_URL = 'https://calendar.app.google/7hnjM1zz6PJVdj9v7';
 // Replace the old single GCAL_URL line with these two:
 
 
