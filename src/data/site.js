@@ -1,4 +1,9 @@
-export const GCAL_URL = 'https://calendar.google.com/calendar/appointments/';
+export const GCAL_URL = 'https://calendar.app.google/mvtMMnG9uPCE3AcD9';
+// Replace the old single GCAL_URL line with these two:
+
+
+
+// Keep all the rest of your exports (contact, heroSlides, IMAGES, team, etc.) exactly the same...
 
 export const contact = {
   phone: '07379 338948',
