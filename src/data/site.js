@@ -1,4 +1,4 @@
-export const GCAL_URL = 'https://calendar.app.google/7hnjM1zz6PJVdj9v7';
+export const GCAL_URL = 'https://calendar.google.com/calendar/embed?src=chris%40doncasterphysio.co.uk&ctz=Europe%2FLondon';
 // Replace the old single GCAL_URL line with these two:
 
 
